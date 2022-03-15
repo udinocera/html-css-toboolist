@@ -11,42 +11,54 @@
     </head>
 
     <body>
-        <div class="inizio">
+        <div id="logo-container">
         
         <header>
             <img src="Logo.png" id="logo" alt="Logo">
-            <span><b>Toboolist</b></span>
+            <span><strong>Toboolist</strong></span>
         </header>
        
         </div>
             <br>
             <br>
+
+        <div id="container">
         <main>
 
-            <button>Add Task</button>
-            <button>Add Section</button>
+            <button id="bottone-1">Add Task</button>
+            <button id="bottone-2">Add Section</button>
 
             <hr>
 
-           <ul>New Task
-               <li>✓Quarterly Newsletter</li>
+           <ul><b>New Task</b>
+               <li><span id="prova">&check;</span><span><b>Quarterly Newsletter</b></span></li>
            </ul>
 
-           <ul>Today
-            <li>✓Recruiting blog post</li>
-            <li>✓Mobile app launch</li>
-            <li>&#10008Interview John H.</li>
-            <li>✓Summit update to mobile storefronts</li>
+           <div class="unread">
+           <ul><b>Today</b>
+            <li><span id="prova">&check;</span><strong>Recruiting blog post</strong></li>
+            <br>
+            <li><span id="prova">&check;</span><strong>Mobile app launch</strong></li>
+            <br>
+            <li><span id="prova1">&cross;</span>Interview John H.</strong></li>
+            <br>
+            <li><span id="prova">&check;</span><strong>Summit update to mobile storefronts</strong></li>
         </ul>
+             </div>
 
-        <ul>Upcoming
-            <li>&#10008Schedule meeting with Alex</li>
-            <li>✓Homepage refresh</li>
-            <li>✓Onboard new Sales team members</li>
-            <li>✓Review editorial calendar</li>
+        <ul><b>Upcoming</b>
+            
+            <li><span id="prova1">&cross;</span><strong>Schedule meeting with Alex</strong></li>
+            <br>
+            <li><span id="prova">&check;</span><strong>Homepage refresh</strong></li>
+            <br>
+            <li><span id="prova">&check;</span><strong>Onboard new Sales team members</strong></li>
+            <br>
+            <li><span id="prova">&check;</span><strong>Review editorial calendar</strong></li>
         </ul>
 
         </main>
+        </div>
 
         <footer>
 
