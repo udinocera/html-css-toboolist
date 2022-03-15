@@ -44,7 +44,7 @@ ul {
     list-style-type: none;
 }
 
-#prova{
+.prova{
    
     width: 20px;
     height: 20px;
@@ -57,7 +57,7 @@ ul {
    
 }
 
-#prova1{
+.prova1{
    
     width: 20px;
     height: 20px;
@@ -70,5 +70,73 @@ ul {
     
    
 }
+
+.edit{
+   
+    width: 70px;
+    height: 30px;
+    border-radius: 30%;
+    background-color: cornflowerblue;
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+
+.q1{
+   
+    width: 70px;
+    height: 30px;
+    border-radius: 30%;
+    background-color: violet;
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+
+.recl{
+   
+    width: 70px;
+    height: 30px;
+    border-radius: 30%;
+    background-color: aquamarine;
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+
+.mob{
+   
+    width: 70px;
+    height: 30px;
+    border-radius: 30%;
+    background-color: orange;
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+
+.web{
+   
+    width: 70px;
+    height: 30px;
+    border-radius: 30%;
+    background-color: palevioletred;
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+
+.sal{
+   
+    width: 70px;
+    height: 30px;
+    border-radius: 30%;
+    background-color: rgb(100, 237, 118);
+    display: inline-block;
+    color: white;
+    text-align: center;
+    
+}
+    
 
 
