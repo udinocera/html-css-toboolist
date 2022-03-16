@@ -1,33 +1,54 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+body{
+    background-color: aliceblue;
+    margin-top: 1cm;
+}
+
 #logo-container{
     background-color: white;
-    height: 80px;
-    font-size: large;
-    font-size: 40px;
+    height: 60px;
+    line-height: 60px;
     
+}
+main{
+    background-color: white;
 }
 
 #logo {
-    height: 80px;
-    line-height: 80px;
+    height: 100%;
+    font-weight: bold;
     vertical-align: middle;
     
 }
 
 #bottone-1{
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    border-radius: 8px;
+    width: 2cm;
+    height: 1cm;
+    border-radius: 10%;
     background-color:cornflowerblue;
     color: white;
+    margin-left: 1cm;
+    
 }
 
  #bottone-2{
-        -moz-border-radius: 8px;
-        -webkit-border-radius: 8px;
-        border-radius: 8px;
+        width: 2cm;
+        height: 1cm;
+        border-radius: 10%;
         background-color: white;
         text-decoration: gainsboro;
         color: grey;
+        vertical-align: middle;
+        margin-left: 10px;
+ }
+
+ #spazio-bottoni{
+     margin-top: 10px;
  }
 
     #container{
@@ -42,33 +63,49 @@
 
 ul {
     list-style-type: none;
+    line-height: 40px;
+    
+}
+
+.centro {
+    font: 40px;
+    font-size: 20px;
 }
 
 .prova{
    
-    width: 20px;
-    height: 20px;
-    border-radius: 60%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
     border:2px solid greenyellow;
     color: greenyellow;
     display: inline-block;
     vertical-align: middle;
     text-align: center;
+    line-height: normal;
+
    
 }
 
 .prova1{
    
-    width: 20px;
-    height: 20px;
-    border-radius: 60%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
     border:2px solid red;
     color: red;
     display: inline-block;
     vertical-align: middle;
     text-align: center;
+    line-height: normal;
     
    
+}
+
+#inizio{
+    font-size: 30px;
+    vertical-align: middle;
+    
 }
 
 .edit{
@@ -80,6 +117,8 @@ ul {
     display: inline-block;
     color: white;
     text-align: center;
+    line-height:initial;
+    
 }
 
 .q1{
